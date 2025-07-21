@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: companyweb-main
+  description: |
+    No description provided
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Meeranmk/companyweb-main
+  links:
+    - title: Repository
+      url: https://github.com/Meeranmk/companyweb-main
+spec:
+  type: service
+  lifecycle: production
+  owner: user:Meeranmk
